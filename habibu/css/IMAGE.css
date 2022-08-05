@@ -1,0 +1,99 @@
+
+    *{
+    box-sizing:border-box;
+    }
+    body{
+    font-family:arial;
+    background:#ddd;
+    padding:10px;
+    }
+    #header{
+    padding:30px;
+    text-align:center;
+    background:chatreuse;
+    }
+    #header h1{
+    font-size:50px;
+    font-family:broadway;
+    color:blue;
+    }
+    #Link{  
+    background-color:black;
+    overflow:hidden;
+    }
+    #Link a{
+    color:darkgoldenrod;
+    text-align:center;
+    padding:14px 16px;
+    float:left;
+    display:block;
+    }
+    #Link a:hover{
+    background-color:white;
+    color:magenter;
+    }
+    #rightcolumn{
+    float:left;
+    width:50%;
+    
+    }
+    #leftcolumn{
+    float:left;
+    width:50%;
+    
+    }
+    #card{
+    background-color:white;
+    padding:20px;
+    margin-top:20px;
+    border:dashed blue;
+    border-radius:10%;
+    }
+    #row:after{
+    display:table;
+    content:"";
+    clear:both;
+    }
+    @media screen and(max-width:800px){
+    #leftcolumn,#rightcolumn{
+    width:100%;
+    padding:0;
+    
+    }
+    }
+    @media screen and(max-width:400px){
+    #Link{
+    width:100%;
+    float:none;
+    }
+    }
+    
+    h3,h2, h1{
+    color:blue;
+    font-family: broadway;
+    text-align:center;
+    }
+    #footer{
+    background-color:gray;
+    padding:20px;
+    text-align:center;
+    margin-top:20px;
+    }
+    #column{
+    float:left;
+    width:33.33%;
+    }
+    #button{
+    background-color:darkgoldenrod;
+    border:none;
+    color:red;
+    text-align:center;
+    text-decoration:none;
+    width:100px;
+    height:100px;
+    padding:5px 2px;
+    font-size:20px;
+    cursor: pointer;
+    border-radius:50%;
+    }
+    
